@@ -45,6 +45,10 @@ header {
     justify-content: flex-end;
     column-gap: 16px;
 
+    img {
+      cursor: pointer;
+    }
+
     .header__input-box {
       width: 200px;
       display: flex;
@@ -54,6 +58,7 @@ header {
 
       img {
         margin-right: 10px;
+        cursor: pointer !important;
       }
 
       input {
@@ -185,7 +190,6 @@ nav {
   max-width: 330px;
   width: 100%;
   transition: all 0.2s ease;
-  cursor: pointer;
 
   &:hover {
     transform: translateY(-4px);
@@ -196,6 +200,14 @@ nav {
     position: absolute;
     top: 16px;
     left: 16px;
+    cursor: pointer;
+  }
+
+  .add {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
   }
 
   .preview {
@@ -243,6 +255,7 @@ nav {
     p {
       font-size: 20px;
       margin-bottom: 12px;
+      text-transform: uppercase;
     }
 
     h3 {
@@ -370,7 +383,6 @@ footer {
 }
 
 .overlay {
-  display: none;
   position: fixed;
   z-index: 1;
   width: 100vw;

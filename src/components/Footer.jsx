@@ -3,10 +3,10 @@ function Footer() {
     <footer>
       <div className="footer wrapper">
         <div className="footer__promo">
-          <p>Скидка 10% за подписку
-            на еженедельную рассылку</p>
+          <p>
+            10% discount for subscribing to the weekly newsletter</p>
           <input type="email" placeholder="Email" />
-          <button>Подписаться</button>
+          <button>Subscribe</button>
         </div>
         <div className="footer__contacts">
           <h4>support@mrmalfor.com</h4>

@@ -3,9 +3,10 @@ function Journal() {
     <div className="journal wrapper">
       <img src="/img/journal.jpg" alt="Journal" />
       <div className="journal__info">
-        <p>Выпуск журнала</p>
-        <h3>Как Италия перестала быть законодателем бизнес-моды</h3>
-        <a href="/">Читать подробнее</a>
+        <p>The Journal</p>
+        <h3>
+          How Italy ceased to be a trendsetter in business fashion</h3>
+        <a href="/">Read more in The Journal</a>
       </div>
     </div>
   );
